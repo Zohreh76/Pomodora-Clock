@@ -1,0 +1,16 @@
+body {
+    background-image:url("http://keypay.com.au/wp-content/uploads/2018/02/brooke-campbell-44085-unsplash-1.jpg");
+    background-size:100%;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Montserrat';   
+}
+
+h2{
+    display: inline;
+}
+
+#start{
+    margin:10px;
+}
+
