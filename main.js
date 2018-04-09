@@ -9,7 +9,8 @@ $(document).ready(function () {
     $("#start").click(function(){
         var counter = setInterval(timer, 1000);
         count*=60;
-
+        breakTime *= 60;
+ 
         function timer() {
             //hide variables
             $("#start, #minus5Clock, #add5Clock, #minus5Break, #add5Break, #breakNum, #title1, #title2").hide();
@@ -33,7 +34,7 @@ $(document).ready(function () {
             function breakTimer() {
                 $("#timeType").html("Break Time:");
                 $("#breakNum").show();
-                breakTime *= 60;
+                
                 $("#timeType").show();
                 breakTime -= 1;
                 if (breakTime === 0) {
