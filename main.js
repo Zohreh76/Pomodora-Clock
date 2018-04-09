@@ -55,7 +55,7 @@ $(document).ready(function () {
     });
 
 
-    $("#reset").click(function(){
+   $("#reset").click(function(){
         count =25;
         breakTime=25;
         $("#num").html(count);
